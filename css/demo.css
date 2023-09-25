@@ -1,0 +1,509 @@
+body, html {
+    margin: 0;
+    padding: 0;
+     /* Prevent horizontal scrollbar */
+}
+
+.s1_1 {
+	position: absolute;
+	width: 100%;
+	height: 866px;
+    /* background-size: cover; */
+}
+
+.s1_2{
+    /* border: 10px solid #fff; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -4px;
+    background: url("../assets/s1_bg.png") no-repeat;
+    background-size: cover;
+}
+
+.s1_3 {
+	position: absolute;
+	width: 100%;
+	height: 866px;
+	/* left: -2px; */
+	top: 0px;
+
+	background: linear-gradient(180deg, #091025 12.21%, rgba(9, 16, 37, 0.584427) 31.55%, rgba(9, 16, 37, 0) 100%);
+	mix-blend-mode: multiply;
+	opacity: 0.96;
+}
+.s1_4 {
+	/* Rectangle 34 */
+	position: absolute;
+	width: 100%;
+	height: 866px;
+	/* left: -2px; */
+	top: 0px;
+	background: linear-gradient(90deg, #091025 0%, #091025 4.35%, rgba(8, 16, 36, 0) 39.3%);
+	mix-blend-mode: multiply;
+	opacity: 0.96;
+}
+
+.s1_l1{
+    /* Group 237602 */
+    position: absolute;
+    width: 190px;
+    height: 50px;
+    left: 100px;
+    top: 28px;
+}
+.s1_l2{
+    /* Logo Icon 1 */
+    position: absolute;
+    left: 0%;
+    right: 76.32%;
+    top: 0%;
+    bottom: 0%;
+	background: url("../assets/logo.png");
+}
+.s1_l3{
+    /* metalytix */
+    position: absolute;
+    left: 28.95%;
+    right: 0%;
+    top: 4%;
+    bottom: 6%;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 150%;
+    /* identical to box height, or 45px */
+    color: #FFFFFF;
+}
+
+.s1_heading1{
+    /* Search Your World */
+    position: absolute;
+    width: 1277px;
+    height: 131px;
+    left: 123px;
+    top: 345px;
+    
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 82px;
+    line-height: 120%;
+    /* or 98px */
+    
+    color: #FFFFFF;
+    
+}
+
+.s2_group{
+    position: absolute;
+    width: 100%;
+    height: 1350px;
+    top: 866px;
+}
+
+.s2_bg {
+    /* s2 bg */
+    position: absolute;
+    width: 100%;
+    height: 100%;/* Use 100% of the parent's height */
+    left: 0; /* Adjusted to 0 */
+     /* Adjusted to 0 */
+    background: linear-gradient(180deg, #FAFAFA 27.95%, #E8EEFC 100%);
+    background-size: cover; /* Scale the background image to cover the entire element */
+}
+
+.s2_heading_image{
+	position: absolute;
+	width: 616px;
+	height: 180px;
+        left: calc(50% - 500px/2 - 14px);
+        top: 10%;
+    /* margin-top: 10vh; */
+	background: url("../assets/search_anything.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s2_search_demo{
+    /* search_demo */
+    
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    /* left: calc(50% - 1160px/2); */
+    top: 10%;
+    background: url("../assets/search_demo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.s3_how_image{
+    /* how_we_do_it */
+    position: absolute;
+    width: 100%;
+    height: 640px;
+    /* left: 224px; */
+    top: 2393px;
+    background: url("../assets/how_we_do_it.png");
+    background-repeat: no-repeat;
+    /* background-size: cover; */    
+}
+.s4_bg{
+
+    /* Rectangle 15 */
+    
+    position: absolute;
+    width: 100%;
+    height: 629px;
+    left: -2.12px;
+    top: 3191.25px;
+    background: #091125;
+    
+}
+.s4_overlay{
+    /* s4_bg */
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+    left: -4.12px;
+    /* top: 3191px; */
+    background: url(../assets/s4_overlay.png);
+    mix-blend-mode: multiply;
+    background-size: 100vw 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+    
+    
+.s4_retail_box{
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 280px;
+    left: 10%;
+    top: 30%;
+    background: url("../assets/retail.png");
+}
+    
+.s4_transport_box {
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 280px;
+    left: 28%;
+    top: 30%;
+    background: url("../assets/transport.png");
+}
+    
+    
+.s4_government_box {
+
+    /* Rectangle 17 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 280px;
+    left: 46%;
+    top: 30%;
+    background: url("../assets/gov.png");
+    background-position: center;
+}
+    
+    
+.s4_warehousing_box {
+
+    /* Rectangle 17 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 280px;
+    left: 64%;
+    top: 30%;    
+    background: url("../assets/warehousing.png");
+}
+    
+    
+.s4_factory_box {
+    /* Rectangle 17 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 280px;
+    left: 82%;
+    right: 10%;
+    top: 30%;
+    background: url("../assets/factory.png");
+}
+
+.s6_bg{
+    /* Rectangle 15 */
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    left: -2.12px;
+    top: 3900px;    
+}
+
+.s6_map_address{
+    /* map_address */
+    position: absolute;
+    width: 302px;
+    height: 117px;
+    left: 10%;
+    /* top: 4007px; */
+    background: url("../assets/map_address.png") no-repeat;
+    }
+  
+  
+  
+  .s6_map_image{
+  /* office_map */
+  
+  position: absolute;
+  width: 602px;
+  height: 668px;
+  left: 100px;
+  /* top: 3977px; */
+  
+  background: url(../assets/office_map.png) no-repeat;
+  border-radius: 0px;
+  
+  }
+  
+  .s6_request_quote{
+  /* request_quote */
+  
+  position: absolute;
+  width: 550px;
+  height: 91px;
+  left: 800px;
+  top: 35%;
+  /* top: 4146px; */
+  background: url(../assets/request_quote.png) no-repeat;
+  
+  }
+  .s6_form_button_image{
+  position: absolute;
+  width: 240px;
+  height: 64px;
+  top: 50%;
+  left: 900px;
+  /* top: 4279px; */
+  background: url(../assets/form_button_image.png) no-repeat;
+  
+  }
+
+.s5_bg {
+    /* bg */
+    position: absolute;
+    width: 100%;
+    height: 502px;
+    left: 0px;
+    top: 4800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    background: #050A16;
+
+}
+    
+    
+    .s5_bottom{
+    
+    /* bottom */
+    
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 5302px;
+    
+    background: #141B2D;
+    }
+    
+    
+    
+.s5_btp_box {
+    /* Rectangle 31 */
+
+    position: relative;
+    width: 120px;
+    height: 80px;
+    /* left: 46vw; */
+    margin-left: 50%;
+    display: flex;
+    top: 5285px;
+    text-align: center;
+    background: #141B2D;
+    justify-content: center;
+    align-items: center;
+}
+    
+    .s5_btp_text{
+    
+    /* Back To Top */
+    
+    /* position: absolute; */
+    /* width: 79px; */
+    /* height: 21px; */
+    /* left: 47.5vw; */
+    /* top: 5325px; */
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    
+    /* Text & BG/White */
+    color: #FFFFFF;
+    
+    }
+    
+    
+.s5_metalytix_text {
+
+    /* Metalytix Labs */
+
+    position: relative;
+    /* width: 356px;
+    height: 65px;
+    left: 334px;
+    top: 4892px; */
+    left: 20%;
+    top: 14%;
+
+    /* Header */
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    /* identical to box height, or 135% */
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+    
+.s5_text_box {
+    position: relative;
+    left: 20%;
+    top: 20%;
+}
+    
+    
+.s5_email {
+    /* info@metalytix.ai */
+
+    position: relative;
+    /* width: 150px;
+      height: 27px;
+      left: 374px;
+      top: 4996px;
+       */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+    color: #FFFFFF;
+
+}
+
+.s5_phone {
+
+    /* +91 96193 99719 */
+
+    /* position: absolute;
+      width: 137px;
+      height: 27px;
+      left: 370px;
+      top: 5039px; */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+    color: #FFFFFF;
+
+}
+
+.s5_address {
+
+    /* AltF Empire Square, MG Rd, Gurgaon, Haryana 122002 */
+
+    /* position: absolute;
+      width: 235px;
+      height: 108px;
+      left: 370px;
+      top: 5083px; */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    color: #FFFFFF;
+
+}
+    
+    
+    .s5_copyright{
+    
+    /* © 2023 Metalytix Labs Pvt Ltd, All Rights Reserved */
+    
+    position: absolute;
+    width: 378px;
+    height: 24px;
+    left: 10px;
+    /* padding-left: 50px; */
+    top: 5418px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    
+    /* Text & BG/Grey */
+    color: #999999;
+    
+    
+    }
+    
+    .s5_tnc{
+    
+    /* Terms & Conditions . Privacy Policy . Cookies */
+    
+    position: absolute;
+    width: 419px;
+    height: 24px;
+    left: 1167px;
+    top: 5419px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    
+    color: #999999;
+    
+    }

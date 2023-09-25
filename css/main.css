@@ -3,7 +3,7 @@
 }
 body {
 	font-size: 14px;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .s1_1 {
 	/* Group 237603 */
@@ -30,7 +30,7 @@ body {
 /* Rectangle 33 */
 .s1_3 {
 	position: absolute;
-	width: 100%;
+	width: 100vw;
 	height: 866px;
 	left: -2px;
 	top: 0px;
@@ -101,6 +101,7 @@ line-height: 120%;
 color: #FFFFFF;
 
 }
+
 .s2_body{
 /* Group 77 */
 
