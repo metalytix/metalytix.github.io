@@ -6,6 +6,7 @@ import warehousing from './assets/warehousing.png';
 import factory from './assets/factory.png';
 import address from './assets/map_address.png';
 import logo from './assets/logo.png';
+import image1 from './assets/how_we_do_it.png';
 const App = () => (
   <main className="relative">
 
@@ -32,8 +33,14 @@ const App = () => (
     </div>
 
     {/* third section  */}
-    <div className="  h-[800px] bg-no-repeat bg-auto bg-center mt-5 mb-5 bg-[url('assets\how_we_do_it.png')]"></div>
-
+    {/* <div className=" bg-[url('assets\how_we_do_it.png')] bg-no-repeat bg-center bg-cover h-[633px]"></div> */}
+    <div className='mt-10 mb-10'>
+      <img
+    src={image1}
+    class="h-auto max-w-full"
+    alt="..." />
+    </div>
+    
     {/* fourth section */}
     <div className="h-[629px] bg-no-repeat bg-auto bg-center  bg-[#091125] ">
       <div className="  h-[629px] w-[1918] bg-cover bg-center bg-[url('assets/s4_overlay.png')]">
