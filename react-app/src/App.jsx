@@ -5,8 +5,11 @@ import gov from './assets/gov.png';
 import warehousing from './assets/warehousing.png';
 import factory from './assets/factory.png';
 import address from './assets/map_address.png';
+import address_full from './assets/office_map_full.png';
 import logo from './assets/logo.png';
 import image1 from './assets/how_we_do_it.png';
+import image2 from './assets/request_quote.png';
+import image3 from './assets/form_button_image.png';
 const App = () => (
   <main className="relative">
 
@@ -44,8 +47,8 @@ const App = () => (
     {/* fourth section */}
     <div className="h-[629px] bg-no-repeat bg-auto bg-center  bg-[#091125] ">
       <div className="  h-[629px] w-[1918] bg-cover bg-center bg-[url('assets/s4_overlay.png')]">
-        <div className=" flex justify-between items-center ">
-          <img src={retail} alt="Image 1" className="w-1/5 m-5  pt-28 mix-blend-normal" />
+        <div className="flex flex-wrap justify-around items-center sm:flex-wrap md:flex-wrap lg:flex-wrap xl:flex-nowrap">
+          <img src={retail} alt="Image 1" className=" w-1/5 m-5  pt-28 mix-blend-normal" />
           <img src={transport} alt="Image 2" className="w-1/5 m-5 pt-28" />
           <img src={gov} alt="Image 3" className="w-1/5 m-5 pt-28" />
           <img src={warehousing} alt="Image 4" className="w-1/5 m-5 pt-28" />
@@ -55,14 +58,17 @@ const App = () => (
     </div>
 
     {/* firth section */}
-    <div className='flex-auto min-h-screen '>
-      <div className='flex items-center'>
-        <div className=" container h-[668px] w-[610px] scale-75 bg-no-repeat bg-auto bg-left mt-5 mb-5 mr-10 ml-20 bg-[url('assets\office_map.png')]">
+    <div className='flex-auto min-h-screen p-3'>
+      <div className='flex flex-wrap items-center justify-center'>
+        <img src={address_full} alt="Image 1" className="   pt-10 mix-blend-normal" />
+        {/* <div className=" container h-[668px] w-[610px] scale-75 bg-no-repeat bg-auto bg-left mt-5 mb-5 mr-10 ml-20 bg-[url('assets\office_map.png')]">
           <img src={address} alt="Image 1" className="  m-5  pt-10 mix-blend-normal" />
-        </div>
-        <div>
-          <div className=" h-[91px] w-[550px] bg-no-repeat bg-center bg-[url('assets\request_quote.png')]"></div>
-          <div className=" h-[91px] w-[550px] bg-no-repeat bg-center right-3 bg-[url('assets\form_button_image.png')]"></div>
+        </div> */}
+        <div className="flex-row justify-center">
+          <img src={image2} alt="Image 1" className="pl-3 pt-3 pb-3" />
+          <img src={image3} alt="Image 1" className="pb-3 pl-3" />
+          {/* <div className=" h-[91px] w-[550px] bg-no-repeat bg-center bg-cover bg-[url('assets\request_quote.png')]"></div> */}
+          {/* <div className=" h-[91px] w-[550px] bg-no-repeat bg-center right-3 bg-[url('assets\form_button_image.png')]"></div> */}
         </div>
       </div>
     </div>
