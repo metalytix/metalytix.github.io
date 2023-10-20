@@ -14,7 +14,7 @@ const App = () => (
   <main className="relative">
 
     {/* first section */}
-    <div className="min-h-screen bg-cover bg-center bg-[url('assets\s1_bg.png')]">
+    <div className="min-h-screen bg-cover bg-center bg-[url('./assets/s1_bg.png')]">
       <div className="container">
       <div className="absolute flex top-0 left-5 p-4 ">
         <img src={logo} alt="logo" width={45} height={50} className="w-45 h-50 mt-2 pr-4 pt-1" />
@@ -30,8 +30,8 @@ const App = () => (
     {/* second section */}
     <div class="min-h-screen bg-gradient-to-b from-white to-[#E8EEFC]">
       <div className="justify-center">
-        <div className="  h-[180px] bg-no-repeat bg-auto bg-center mt-5 bg-[url('assets\search_anything.png')]"></div>
-        <div className="  h-[812px] bg-no-repeat bg-auto bg-center mt-5 bg-[url('assets\search_demo.png')]"></div>
+        <div className="  h-[180px] bg-no-repeat bg-auto bg-center mt-5 bg-[url('./assets/search_anything.png')]"></div>
+        <div className="  h-[812px] bg-no-repeat bg-auto bg-center mt-5 bg-[url('./assets/search_demo.png')]"></div>
       </div>
     </div>
 
